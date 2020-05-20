@@ -6,7 +6,7 @@ más transparente y permitir mayor velocidad en el procesamiento de pagos.
 
 ## Especificación
 
-    pmovil:<número telefónico>/<número de identificador>?monto=<monto a pagar>&moneda=<moneda a utilizar>&concepto=<concepto del pago>
+    pmovil:<código del banco>/<número telefónico>/<número de identificador>?monto=<monto a pagar>&moneda=<moneda a utilizar>&concepto=<concepto del pago>
 
 Ejemplos:
 
