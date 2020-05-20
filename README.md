@@ -44,7 +44,7 @@ en cuestión.
 
 Ejemplo:
 
-    // incluir imagen de ejemplo
+![imagen de ejemplo](/ejemplo.png)
 
 Estos elementos de la interfaz del usuario permiten lo siguiente:
 
