@@ -57,6 +57,26 @@ Estos elementos de la interfaz del usuario permiten lo siguiente:
   llame por un ***Uri scheme handler*** a la aplicación preferida de pago móvil
   del usuario, permitiendo un flujo de operación rápido y eficiente.
 
+Se sugiere a los desarrolladores de Apps de pago móvil permitir en su interfaz:
+
+  * Escanear un código QR para prellenar todos los datos y prellenar los campos
+  necesarios para el procesamiento del pago móvil.
+  * Si todos los campos requeridos han sido llenados luego de un escaneo, no
+  esperar a que el usuario "conifrme" la operación, pasar al siguiente paso del
+  flujo del pago.
+  * Permitir generar un código para una solicitud de pago, de modo que el
+  usuario pueda presentar el mismo para que otro usuario lo escanee.
+  * En el caso de uso de monedas no soportadas por las cuentas bancarias del
+  usuario emisor, sugerir tasas de cambio o permitirle al usuario especificar
+  la tasa de cambio.
+  * Permitir al usuario tener una *cuenta favorita* para no tener que elegir la
+  cuenta origen cada vez que haga un pago móvil.
+
+## Cómo contribuir?
+
+Hacer un fork de este repositorio, hacer las modificaciones y abrir un PR para
+ser incluido, previa evaluación del contenido.
+
 ## Licencia
 
 Licencia MIT.
